@@ -2519,7 +2519,7 @@ The overall plan for loot distribution:
 </lootgroup>
 
 <lootgroup name="coldfood">
-	<item name="foodEgg" count="2,4"/>
+	<item name="foodEgg" count="20,40"/>
 	<item name="foodBlueberryPie"/>
 	<item name="foodMeatStew"/>
 	<item name="foodRawMeat" count="5,10"/>
@@ -3565,8 +3565,8 @@ if the loot entry for mods is empty then it will use the lootgroup mods and mod_
 	<item group="groupModAllScaled" prob=".15"/>
 </lootgroup>
 
-<lootgroup name="groupBirdNest" count="1,2">
-	<item name="foodEgg" prob="0.25"/>
+<lootgroup name="groupBirdNest" count="10,20">
+	<item name="foodEgg" count="10,50" prob="1"/>
 	<item name="resourceFeather" count="1,5" prob="0.75"/>
 </lootgroup>
 

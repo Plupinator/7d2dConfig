@@ -13080,8 +13080,8 @@ perkNightStalkerSilentNight
 	<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Morganic"/>
-	<property name="Stacknumber" value="125"/> <!-- STK resource -->
-	<property name="EconomicValue" value="15"/>
+	<property name="Stacknumber" value="1250"/> <!-- STK resource -->
+	<property name="EconomicValue" value="1500000"/>
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
